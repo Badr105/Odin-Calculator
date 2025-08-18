@@ -1,4 +1,39 @@
 * {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+}
+
+.display {
+    border-bottom: solid 2px;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 20%;
+    text-align: end;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.n_op {
+    display: flex;
+}
+
+.extra {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 150px;
+    border: solid 5px;
+    border-radius: 10px;
+    background-color: gainsboro;
 }
