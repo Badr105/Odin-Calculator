@@ -1,5 +1,7 @@
 let n1, operator, n2;
 
+const display = document.querySelector(".display");
+
 function add(num1, num2) {
     return num1 + num2;
 }
@@ -28,3 +30,7 @@ function operate(n1, operator, n2) {
             return divide(n1, n2);
     }
 }
+
+
+
+

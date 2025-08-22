@@ -18,21 +18,12 @@ button {
     margin: 2px;
 }
 
-.n_op {
-    display: flex;
-}
-
-.extra {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
 .calculator {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200px;
-    width: 150px;
+    height: 220px;
+    width: 170px;
     border: solid 5px;
     border-radius: 10px;
     background-color: gainsboro;
